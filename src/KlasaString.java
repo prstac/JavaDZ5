@@ -55,7 +55,7 @@ public class KlasaString {
 
         // ZADATAK 3
         int brojOCjena = 10;
-        int prosjek = 0;
+        double prosjek = 0;
         int zbroj = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Unesite zeljeni broj ocjena");
@@ -64,7 +64,7 @@ public class KlasaString {
             System.out.println("Unesite ocjenu");
             zbroj += Integer.parseInt(scanner.nextLine());
         }
-        prosjek = zbroj / brojOCjena;
+        prosjek = (double)zbroj / brojOCjena;
         System.out.println("prosjek je "+prosjek);
     }
 }
